@@ -1,0 +1,32 @@
+{
+  "name": "jez/pdsheetmetal",
+  "description": "PD Sheet Metal 2017 WP Site",
+  "type": "project",
+  "license": "none",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "johnpbloch/wordpress": "4.7.2",
+    "wpackagist-plugin/wordpress-seo": "4.2.1",
+    "wpackagist-plugin/redirection": "2.5",
+    "wpackagist-plugin/all-in-one-schemaorg-rich-snippets": "1.4.1",
+    "wpackagist-plugin/akismet": "3.2",
+    "wpackagist-plugin/advanced-custom-fields": "4.4.11",
+    "wpackagist-plugin/ajax-thumbnail-rebuild": "1.12",
+    "wpackagist-plugin/uk-cookie-consent": "2.3.0",
+    "wpackagist-plugin/wordpress-importer": "0.6.3",
+    "wpackagist-plugin/custom-post-type-ui": "1.5.2"
+  },
+  "extra": {
+    "installer-paths": {
+      "public/wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    },
+    "wordpress-install-dir": "public/wordpress"
+  }
+}
